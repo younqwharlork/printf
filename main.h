@@ -92,7 +92,7 @@ int print_reverse(va_list types, char buffer[],
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* width handler */
+/* width strong handler */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size);
 int write_number(int is_positive, int ind, char buffer[],
